@@ -1,0 +1,246 @@
+@media only screen and (min-device-width:720px){
+    body{
+        background-color: #171717;
+        margin: auto;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+    }
+    .navbar{
+        position: fixed;
+        background-color: #1d1d1d;
+        height: 100%;
+        width: 300px;
+    }
+    #icon{
+        left: 100px;
+        top: 100px;
+    }
+    .learn-more-text{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        left: 400px;
+        top: 150px;
+        width: 400px;
+    }
+    #learn-more{
+        text-decoration: none;
+        color: white;
+        top: 2.5px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 32px;
+    }
+    .learn-more-button{
+        width: 200px;
+        height: 50px;
+        border-radius: 90px;
+        background-color: #171717;
+        border: 5px solid white;
+        text-align: center;
+        top: 180px;
+        left: 400px;
+    }
+    .navbar .navbar-home,.navbar-about,.navbar-work a{
+        margin-bottom: 25px;
+        top: 150px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .navbar-work{
+        left: 112.5px;
+    }
+    .made{
+        bottom: -600px;
+        text-align: center;
+        color: aqua;
+    }
+    #home{
+        top: -350px;
+    }
+    #about{
+        text-align: center;
+        top: 800px;
+        margin-bottom: 200px;
+    }
+    .about-heading{
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+    .work-heading{
+        font-size: 48px;
+        text-align: center;
+    }
+    #work{
+        top: 1000px;
+    }
+    .pieceofcake{
+        left: 400px;
+        top: 50px;
+    }
+    .overlay{
+        visibility: hidden;
+    }
+    #menu{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-device-width:720px){
+    body{
+        background-color: #171717;
+        margin: auto;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+    }
+    .navbar{
+        position: fixed;
+        background-color: #1d1d1d;
+        height: 100%;
+        width: 300px;
+    }
+    #icon{
+        left: 100px;
+        top: 100px;
+    }
+    #home{
+        left: -100px;
+    }
+    .learn-more-text{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 64px;
+        left: 400px;
+        top: 150px;
+        width: 100%;
+    }
+    #learn-more{
+        text-decoration: none;
+        color: white;
+        top: 2.5px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 64px;
+    }
+    .learn-more-button{
+        width: 400px;
+        height: 100px;
+        border-radius: 90px;
+        background-color: #171717;
+        border: 5px solid white;
+        text-align: center;
+        top: 180px;
+        left: 400px;
+    }
+    .navbar .navbar-home,.navbar-about,.navbar-work a{
+        margin-bottom: 25px;
+        top: 150px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .navbar-work{
+        left: 112.5px;
+    }
+    .made{
+        bottom: -500px;
+        text-align: center;
+        color: aqua;
+        font-size: 48px;
+    }
+    #about{
+        text-align: center;
+        top: 960px;
+        margin-bottom: 200px;
+        left: 150px;
+        width: 100%;
+    }
+    .about-heading{
+        font-size: 64px;
+        margin-bottom: 25px;
+    }
+    .work-heading{
+        font-size: 64px;
+        text-align: center;
+        width: 100%;
+        left: 150px;
+    }
+    #work{
+        top: 1000px;
+    }
+    .pieceofcake{
+        left: 100px;
+        top: 50px;
+    }
+    .navbar{
+        visibility: hidden;
+    }
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    } 
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }  
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }  
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+    #menu{
+        top: 25px;
+        left: 25px;
+        position: fixed;      
+    }
+    .overlay-content img{
+        top: -400px;
+        width: 200px;
+    }
+    .overlay-content a{
+        font-size: 112px;
+    }
+}

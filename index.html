@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home | Shreedeep Paul</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="x/icon" href="favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href=""><img id="icon" src="favicon.png" alt="logo" width="100px"></a>
+            <div class="navbar-home">
+                <a href="">Home</a>
+            </div>
+            <div class="navbar-about">
+                <a href="#about">About</a>
+            </div>
+            <div class="navbar-work">
+                <a href="#work">Work</a>
+            </div>
+            <div class="social-links">
+                
+            </div>
+            <div class="made">
+                Made with ❤ and Code <br>
+                by Shreedeep Paul 
+            </div>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="white-close.png"></a>
+            <div class="overlay-content">
+                <img src="favicon.png" alt="logo">
+                <a href="">Home</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <div class="made">
+                    Made with ❤ and Code <br>
+                    by Shreedeep Paul
+                </div>
+            </div>
+        </div>
+        <span id="menu" style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="white-menu.png"></span>
+        <div id="home">
+            <div class="learn-more-text">
+                Hey!!, <br>
+                I'm Shreedeep, <br>
+                a Front-end Developer
+            </div>
+            <div class="learn-more-button">
+                <a id="learn-more" href="#about">Learn More →</a>
+            </div>
+        </div>
+        <div id="about">
+            <div class="about-heading">About</div>
+            Hey!! I’m Shreedeep, a front-end developer <br>
+            (for now, I am still learning) <br>
+            <br>
+            So.. a little about me, I’m 11 years old <br>
+            (will be 12 in 2 weeks from when I am writing this) <br>
+            and I am currently studying in the Bishops Co-Ed School. <br>
+            I was born and brought up in India. <br>
+            <br>
+            A few of my favorite things to do include watching anime, <br>
+            reading books, eating food, writing code, and eating food. <br>
+            I also love to play basketball, football, and minecraft. <br>
+            As you probably noticed, I am a pretty big foodie, <br>
+                with some of my favorite foods being, <br>
+            momos, ramen, chocolate(of course) <br>
+            and rice with dal(lentils). <br>
+            <br>
+            I first learned how to code when I was 10 years old. <br>
+            I had just started learning HTML and CSS. <br>
+            I remember being so fascinated at the time, by  <br>
+            how amazing it was. You could make your own website,  <br>
+            and upload it to the internet and there it was for everyone to see. <br>
+            So I set off to learn the power of the internet. <br>
+            <br>
+            Also if you have any suggestions, I would love to hear them.  <br>
+            Feel free to reach out to me any time at <a id="about-text-gmail-link" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=shreedeeppaul@gmail.com">shreedeeppaul@gmail.com</a>
+        </div>
+        <div id="work">
+            <div class="work-heading">Projects I Have Worked On</div>
+            <a target="_blank" href="https://pieceofcakebakery.netlify.app/"><img class="pieceofcake" src="https://pieceofcakebakery.netlify.app/images/Piece%20Of%20Cake.png" alt="pieceofcake" width="300"></a>
+        </div>
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+    </body>
+</html>
